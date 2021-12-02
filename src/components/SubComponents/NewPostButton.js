@@ -55,7 +55,7 @@ const NewPostButton = () => {
                 // label="Assunto"
                 sx={{ width: "100%" }}
               >
-                <MenuItem value="">
+                <MenuItem value="Assunto 01">
                   <em>Assunto 01</em>
                 </MenuItem>
                 {[

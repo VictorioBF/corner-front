@@ -10,6 +10,8 @@ import Login from "./views/Login";
 import SignUp from "./views/SignUp";
 import Test from "./views/Test";
 
+import NotFound from "./components/NotFound";
+
 const App = () => {
   const staticData = {
     title: "Título Estático",
@@ -24,11 +26,19 @@ const App = () => {
       <CrnTheme>
         <BrowserRouter>
           <Routes>
-            <Route exact path="/" element={<Home data={staticData} />} />
+            <Route path="/home" element={<Home data={staticData} />} />
             <Route path="/post" element={<OpenPost data={staticData} />} />
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<SignUp />} />
             <Route path="/teste" element={<Test />} />
+
+            <Route
+              path="*"
+              element={
+                <NotFound />
+              }
+            />
+
           </Routes>
         </BrowserRouter>
       </CrnTheme>

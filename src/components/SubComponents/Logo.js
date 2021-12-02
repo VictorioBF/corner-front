@@ -19,7 +19,7 @@ const Logo = ({ link, align, Margin, LL, MM, MS, SS, XS }) => {
       justifyContent="center"
       alignItems={ align ? align : "center" }
       as={link ? "a" : "default"}
-      href={link ? "/" : "default"}
+      href={link ? "/home" : "default"}
     >
       <CropFreeRoundedIcon 
         sx={{ 
