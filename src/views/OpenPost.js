@@ -2,6 +2,7 @@ import { Box, Container, Grid, Paper, Typography } from "@mui/material";
 import React from "react";
 import Comment from "../components/Comment";
 import Sidebar from "../components/Sidebar";
+import CommentButton from "../components/SubComponents/CommentButton";
 
 const OpenPost = ({ data }) => {
   return (
@@ -74,9 +75,7 @@ const OpenPost = ({ data }) => {
                   </Typography>
                 </Grid>
                 <Grid item xs={12} align="right">
-                  <Typography as="a" href="/">
-                    Comentar
-                  </Typography>
+                  <CommentButton />
                 </Grid>
               </Grid>
             </Paper>

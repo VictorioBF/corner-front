@@ -46,6 +46,7 @@ const Sidebar = () => {
           <Divider />
           <List sx={{ padding: 0 }}>
             {[
+              "Assunto 01",
               "Assunto 02",
               "Assunto 03",
               "Assunto 04",
@@ -60,7 +61,7 @@ const Sidebar = () => {
               "Assunto 13"
             ].map((text, index) => (
               <ListItem button key={text} alignItems="center">
-                <ListItemText primary={text} style={{ textAlign: "center" }} />
+                <ListItemText primary={text} as="a" href="home" sx={{ textAlign: "center", textDecoration: "none", color: "black" }} />
               </ListItem>
             ))}
           </List>
