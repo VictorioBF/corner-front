@@ -34,7 +34,7 @@ const CommentButton = () => {
         <Grid container spacing={2}>
           <Grid item xs={24}>
             <Typography id="simple-modal-title" variant="h6">
-              Nova Postagem
+              Novo Comentário
             </Typography>
           </Grid>
 

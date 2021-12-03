@@ -19,7 +19,7 @@ const App = () => {
     content:
       "Conteúdo Estático: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices ex elit, ut lobortis sem accumsan nec. Nulla sit amet vehicula purus, at facilisis purus. Morbi cursus metus vitae ex laoreet tempor. Nunc urna ipsum, euismod ac sagittis sit amet, posuere id enim. Sed luctus lobortis tortor, et ornare lectus consectetur vitae. Duis nec ligula id orci vestibulum congue. Donec rutrum varius enim. Maecenas fermentum elit eget libero dignissim facilisis.",
     comments: "estáticos",
-    author: "john staticus"
+    author: "Autor Estático"
   };
   return (
     <div className="App">

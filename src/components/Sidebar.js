@@ -41,7 +41,6 @@ const Sidebar = () => {
         <Divider />
 
         <Box sx={{ overflow: "auto" }}>
-          {/* Botão */}
           <NewPostButton />
           <Divider />
           <List sx={{ padding: 0 }}>
@@ -60,8 +59,8 @@ const Sidebar = () => {
               "Assunto 12",
               "Assunto 13"
             ].map((text, index) => (
-              <ListItem button key={text} alignItems="center">
-                <ListItemText primary={text} as="a" href="home" sx={{ textAlign: "center", textDecoration: "none", color: "black" }} />
+              <ListItem button as="a" href="home" key={text} alignItems="center">
+                <ListItemText primary={text} sx={{ textAlign: "center", textDecoration: "none", color: "black" }} />
               </ListItem>
             ))}
           </List>
