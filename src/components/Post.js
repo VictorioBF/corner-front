@@ -32,9 +32,8 @@ const Post = ({ title, topic, content, comments, permission }) => {
             <Box
               sx={{ display: "flex", height: "100%" }}
               alignItems="center"
-              justifyContent="center"
             >
-              <Typography variant="h6" align="center">
+              <Typography variant="h6" align="left">
                 {title}
               </Typography>
             </Box>
@@ -43,9 +42,9 @@ const Post = ({ title, topic, content, comments, permission }) => {
             <Box
               sx={{ display: "flex", height: "100%" }}
               alignItems="center"
-              justifyContent="center"
+              justifyContent="right"
             >
-              <Typography align="center">{topic}</Typography>
+              <Typography align="right">{topic}</Typography>
             </Box>
           </Grid>
           {

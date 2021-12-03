@@ -18,6 +18,7 @@ const Home = ({ data }) => {
             topic={data.topic}
             content={data.content}
             comments={data.comments}
+            permission
           />
           <Post
             title={data.title}
@@ -30,12 +31,14 @@ const Home = ({ data }) => {
             topic={data.topic}
             content={data.content}
             comments={data.comments}
+            permission
           />
           <Post
             title={data.title}
             topic={data.topic}
             content={data.content}
             comments={data.comments}
+            permission
           />
           <Post
             title={data.title}

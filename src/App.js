@@ -26,11 +26,20 @@ const App = () => {
       <CrnTheme>
         <BrowserRouter>
           <Routes>
+            {/* http://localhost:3000/home */}
             <Route path="/home" element={<Home data={staticData} />} />
+
+            {/* http://localhost:3000/post */}
             <Route path="/post" element={<OpenPost data={staticData} />} />
+
+            {/* http://localhost:3000/login */}
             <Route path="/login" element={<Login />} />
+
+            {/* http://localhost:3000/signup */}
             <Route path="/signup" element={<SignUp />} />
-            <Route path="/teste" element={<Test />} />
+
+
+            {/* <Route path="/teste" element={<Test />} /> */}
 
             <Route
               path="*"
