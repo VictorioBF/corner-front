@@ -26,6 +26,9 @@ const App = () => {
       <CrnTheme>
         <BrowserRouter>
           <Routes>
+            {/* http://localhost:3000/ */}
+            <Route path="/" exact element={<Home data={staticData} />} />
+
             {/* http://localhost:3000/home */}
             <Route path="/home" element={<Home data={staticData} />} />
 

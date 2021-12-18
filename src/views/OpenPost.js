@@ -80,9 +80,6 @@ const OpenPost = ({ data }) => {
               </Grid>
             </Paper>
           </Container>
-          {
-            // usar o componente de post? // limitações :/
-          }
           <Comment author={data.author} content={data.content} />
           <Comment author={data.author} content={data.content} />
           <Comment author={data.author} content={data.content} />
